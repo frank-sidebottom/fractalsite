@@ -1,0 +1,18 @@
+To Do
+
+========================================================
+
+[x]Determine structure of Research page
+[x]Conditional CSS to change nav text colour on resource pages
+[x]Enter Text Into a Div
+[x]Style divs
+[ ]Build Blog Engine
+	[x]tagging
+	[ ]author
+	[ ]date
+	[ ]excerpts
+[x]Pull in relevantly tagged blog posts to resources page
+[x]Create other services pages
+[ ]Services drop down
+[ ]Basic CSS for posts, including images (image floats?)
+[ ]Fix JS so that nave text changes to right color

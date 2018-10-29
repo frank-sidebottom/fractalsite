@@ -1,0 +1,26 @@
+    <!-- Strategy Section -->
+    <section id="services" class="content-section text-center">
+        <div class="strategy-section">
+            <div class="container" class="services-container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1>Training</h1>
+                    <h2>Your campaign has been a success, but what have you learned?</h2>
+                    <p>At Fractal we’re all about building your internal capacity. It’s at the root of our transparent approach, so that even without explicitly engaging us for training, you’ll learn key aspects of research, strategic development, and implementation, if you didn’t know them already. And if you do decide to engage us for training over the course of a campaign, we’ll make sure you and your people are prepared to maintain your campaigns and create new campaigns in the future.</p>
+                    <h2>Fractal offers training in the following skills:</h2>
+                    <ul class="bullet-list">
+                        <li>Media platform management</li>
+                        <li>Media buying</li>
+                        <li>Campaign optimization</li>
+                        <li>Strategic development</li>
+                        <li>Creative development</li>
+                    </ul>
+                        <h2>Take a look at some other relevant posts:</h2> 
+                        <ul>
+                            {% for post in site.tags.training-deliverable %}
+                              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </section>
